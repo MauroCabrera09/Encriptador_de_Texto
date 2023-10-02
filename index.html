@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de Texto"</title>
+</head>
+
+<body>
+    <header>
+        <a href="https://www.aluracursos.com/" target="_blank">
+        <img class="logo" src="images/Logo-alura.svg" alt="Logo de Alura">
+        </a>
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text-area" name="" id="" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+
+            <div>
+                <h6 class="information">Solo letras minúsculas y sin acentos</h6>
+            </div>
+
+            <div class="buttons">
+                <button class="btn-encrypt" onclick="btnEncrypt()">Encriptar</button>
+                <button class="btn-decrypt" onclick="btnDecrypt()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea class="message" cols="20" rows="10" placeholder="Ningún mensaje fue encontrado"></textarea>        
+            <div>
+                <button class="copyText" onclick="copyText()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <p class="institution">Alura LATAM + Oracle &copy 2023</p>
+        <p class="contact">Developed by Mauro Cabrera
+            <a href="https://github.com/MauroCabrera09" target="_blank">
+            <img class="logo-social" src="images/Logo-Github.png" alt="GitHub">
+            
+            <a href="https://linkedin.com/in/mauro-cabrera-454579147" target="_blank">
+            <img class="logo-social" src="images/Linkedin.png" alt="LinkedIn">
+            </a>
+        </p>  
+    </footer>
+    
+</body>
+</html>

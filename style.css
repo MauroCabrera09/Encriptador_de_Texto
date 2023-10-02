@@ -1,0 +1,136 @@
+*{
+    background: #F3F5FC;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /*overflow-y: hidden;*/
+}
+
+.logo{
+   padding-top: 20px;
+   margin-left: 35px;
+   width: 7%;
+}
+
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+.text-area{
+    height: 400px;
+    border: none;
+    color: #0A3871;
+    margin-top: 30px;
+    padding: 2px;
+    /*text-transform: lowercase;*/
+}
+
+::placeholder{ color: #0A3871; }
+    .text-area:focus{
+        outline: none;
+    }
+
+.message{
+    height: 740px;
+    background: white;
+    background-image: url("images/Muñeco.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    border: none;
+    border-radius: 25px;
+    color: #0A3871;
+    margin-left: 90px;
+    margin-top: -90px; /*Modificado*/
+    padding-left: 20px;
+    position: fixed;
+    position: absolute;
+
+}
+
+.message::placeholder {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 28px;
+    position: relative; /* Permite ajustar la posición del marcador de posición */
+    top: 60%; /* Mueve el marcador de posición 20px hacia abajo */
+    left: center; /* Mueve el marcador de posición 10px hacia la derecha */
+  }
+
+.message:focus{
+    outline: none;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-decrypt{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encrypt{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.copyText{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 560px;
+    position: absolute;
+    width: 336px;
+}
+
+.sign{
+    font-size: 18px;
+    width: 15px;
+}
+
+.information{
+    color: #495057;
+    font-size: 18px;
+}
+
+.institution{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: -25px;
+    text-align: center;
+}
+
+.contact{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.logo-social{
+    width: 15px;
+}
+
+a{
+    text-decoration: none;
+}
