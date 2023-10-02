@@ -4,7 +4,6 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
-    /*overflow-y: hidden;*/
 }
 
 .logo{
@@ -12,7 +11,6 @@
    margin-left: 35px;
    width: 7%;
 }
-
 
 main{
     display: flex;
@@ -44,7 +42,7 @@ main{
     border-radius: 25px;
     color: #0A3871;
     margin-left: 90px;
-    margin-top: -90px; /*Modificado*/
+    margin-top: -90px;
     padding-left: 20px;
     position: fixed;
     position: absolute;
@@ -55,9 +53,9 @@ main{
     text-align: center;
     font-weight: bolder;
     font-size: 28px;
-    position: relative; /* Permite ajustar la posición del marcador de posición */
-    top: 60%; /* Mueve el marcador de posición 20px hacia abajo */
-    left: center; /* Mueve el marcador de posición 10px hacia la derecha */
+    position: relative;
+    top: 60%;
+    left: center;
   }
 
 .message:focus{
